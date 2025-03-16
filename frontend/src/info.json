@@ -1,0 +1,577 @@
+{
+    "cuentas": [
+        {
+            "id": "1",
+          "tipo": "Caja de ahorro",
+          "numero": "89890897034",
+          "saldo": 787798.0,
+          "CBU": "437985879843",
+          "alias": "AliasCuenta1"
+        },
+        {
+            "id": "2",
+          "tipo": "Caja de ahorro",
+          "numero": "12345678901",
+          "saldo": 250000.5,
+          "CBU": "32380437",
+          "alias": "AliasCuenta2"
+        },
+        {
+            "id": "3",
+          "tipo": "Caja de ahorro",
+          "numero": "98765432109",
+          "saldo": 150500.75,
+          "CBU": "32879944",
+          "alias": "AliasCuenta3"
+        }
+      ],
+      "tarjetas": {
+        "credito": [
+            {
+                "id": "1",
+                "info": "Visa",
+                "numero": "1220023912624543",
+                "saldo": 2438,
+                "signo": "a favor",
+                "limite": 200000
+            },
+            {
+                "id": "2",
+                "info": "Mastercard",
+                "numero": "9340023912620643",
+                "saldo": 2438,
+                "signo": "en contra",
+                "limite": 200000
+            },
+            {
+                "id": "3",
+                "info": "Mastercard",
+                "numero": "8340025912630742",
+                "saldo": 0.00,
+                "signo": "",
+                "limite": 200000
+            }
+        ],
+        "debito":[
+            {
+                "id": "1",
+                "info": "Visa",
+                "numero": "1223123212324343",
+                "cuenta": "89890897034",
+                "idCuenta": "1"
+            }
+        ]
+      },
+    "movimientos": [
+        {
+            "id": "1",
+            "tipo":"cuenta",
+            "cuenta": "1",
+            "fecha":"2024-08-13T12:00.238-3:00",
+            "descripcion":"Pago almuerzo",
+            "importe": 10000,
+            "signo":"-",
+            "saldo":787798.0
+        },
+        {
+            "id": "2",
+            "tipo":"cuenta",
+            "cuenta": "1",
+            "fecha":"2024-08-14T19:00.896-3:00",
+            "descripcion":"reintegro",
+            "importe": 1000,
+            "signo":"+",
+            "saldo":797798.0
+        },
+        {
+            "id": "3",
+            "tipo":"cuenta",
+            "cuenta": "1",
+            "fecha":"2024-08-14T19:00.896-3:00",
+            "descripcion":"Pago almuerzo",
+            "importe": 10000,
+            "signo":"-",
+            "saldo":796798.0
+        },
+        {
+            "id": "4",
+            "tipo":"cuenta",
+            "cuenta": "1",
+            "fecha":"2024-08-11T19:00.896-3:00",
+            "descripcion":"reintegro",
+            "importe": 1000,
+            "signo":"+",
+            "saldo":806798.0
+        },
+        {
+            "id": "5",
+            "tipo":"cuenta",
+            "cuenta": "2",
+            "fecha": "2024-08-13T19:00.896-3:00",
+            "descripcion": "Supermercado",
+            "importe": 20000,
+            "signo": "-",
+            "saldo": 250000.5
+        },
+        {
+            "id": "6",
+            "tipo":"cuenta",
+            "cuenta": "3",
+            "fecha": "2024-08-21T19:00.896-3:00",
+            "descripcion": "Zapatillas",
+            "importe": 30000,
+            "signo": "-",
+            "saldo": 150500.75
+        },
+        {
+            "id": "7",
+            "tipo":"cuenta",
+            "cuenta": "3",
+            "fecha": "2024-06-21T19:00.896-3:00",
+            "descripcion": "kiosko",
+            "importe": 3000,
+            "signo": "-",
+            "saldo": 180500.75
+        },
+        {
+            "id": "8",
+            "tipo":"cuenta",
+            "cuenta": "3",
+            "fecha": "2023-08-21T19:00.896-3:00",
+            "descripcion": "supermercado",
+            "importe": 20000,
+            "signo": "-",
+            "saldo": 183500.75
+        },
+        {
+            "id":"9",
+            "tipo": "tarjeta",
+            "cuenta": "1",
+            "fecha": "2024-08-13T19:00.896-3:00",
+            "descripcion": "Supermercado",
+            "importe": 20000,
+            "saldo": 2438,
+            "signo": "+"
+        },
+        {
+            "id":"9",
+            "tipo": "tarjeta",
+            "cuenta": "1",
+            "fecha": "2024-08-13T19:00.896-3:00",
+            "descripcion": "Supermercado",
+            "importe": 20000,
+            "saldo": 2438,
+            "signo": "+"
+        },
+        {
+            "id":"9",
+            "tipo": "tarjeta",
+            "cuenta": "1",
+            "fecha": "2024-08-13T19:00.896-3:00",
+            "descripcion": "Supermercado",
+            "importe": 20000,
+            "saldo": 2438,
+            "signo": "+"
+        },
+        {
+            "id":"9",
+            "tipo": "tarjeta",
+            "cuenta": "1",
+            "fecha": "2024-08-13T19:00.896-3:00",
+            "descripcion": "Supermercado",
+            "importe": 20000,
+            "saldo": 2438,
+            "signo": "+"
+        },
+        {
+            "id":"9",
+            "tipo": "tarjeta",
+            "cuenta": "1",
+            "fecha": "2024-08-13T19:00.896-3:00",
+            "descripcion": "Supermercado",
+            "importe": 20000,
+            "saldo": 2438,
+            "signo": "+"
+        },
+        {
+            "id":"9",
+            "tipo": "tarjeta",
+            "cuenta": "1",
+            "fecha": "2024-08-13T19:00.896-3:00",
+            "descripcion": "Supermercado",
+            "importe": 20000,
+            "saldo": 2438,
+            "signo": "+"
+        },
+        {
+            "id":"9",
+            "tipo": "tarjeta",
+            "cuenta": "1",
+            "fecha": "2024-08-13T19:00.896-3:00",
+            "descripcion": "Supermercado",
+            "importe": 20000,
+            "saldo": 2438,
+            "signo": "+"
+        },
+        {
+            "id":"9",
+            "tipo": "tarjeta",
+            "cuenta": "1",
+            "fecha": "2024-08-13T19:00.896-3:00",
+            "descripcion": "Supermercado",
+            "importe": 20000,
+            "saldo": 2438,
+            "signo": "+"
+        },
+        {
+            "id":"9",
+            "tipo": "tarjeta",
+            "cuenta": "1",
+            "fecha": "2024-08-13T19:00.896-3:00",
+            "descripcion": "Supermercado",
+            "importe": 20000,
+            "saldo": 2438,
+            "signo": "+"
+        },
+        {
+            "id":"9",
+            "tipo": "tarjeta",
+            "cuenta": "1",
+            "fecha": "2024-08-13T19:00.896-3:00",
+            "descripcion": "Supermercado",
+            "importe": 20000,
+            "saldo": 2438,
+            "signo": "+"
+        },
+        {
+            "id":"9",
+            "tipo": "tarjeta",
+            "cuenta": "1",
+            "fecha": "2024-08-13T19:00.896-3:00",
+            "descripcion": "Supermercado",
+            "importe": 20000,
+            "saldo": 2438,
+            "signo": "+"
+        },
+        {
+            "id":"9",
+            "tipo": "tarjeta",
+            "cuenta": "1",
+            "fecha": "2024-08-13T19:00.896-3:00",
+            "descripcion": "Supermercado",
+            "importe": 20000,
+            "saldo": 2438,
+            "signo": "+"
+        },
+        {
+            "id":"9",
+            "tipo": "tarjeta",
+            "cuenta": "1",
+            "fecha": "2024-08-13T19:00.896-3:00",
+            "descripcion": "Supermercado",
+            "importe": 20000,
+            "saldo": 2438,
+            "signo": "+"
+        },
+        {
+            "id":"9",
+            "tipo": "tarjeta",
+            "cuenta": "1",
+            "fecha": "2024-08-13T19:00.896-3:00",
+            "descripcion": "Supermercado",
+            "importe": 20000,
+            "saldo": 2438,
+            "signo": "+"
+        },
+        {
+            "id":"9",
+            "tipo": "tarjeta",
+            "cuenta": "1",
+            "fecha": "2024-08-13T19:00.896-3:00",
+            "descripcion": "Supermercado",
+            "importe": 20000,
+            "saldo": 2438,
+            "signo": "+"
+        },
+        {
+            "id":"9",
+            "tipo": "tarjeta",
+            "cuenta": "1",
+            "fecha": "2024-08-13T19:00.896-3:00",
+            "descripcion": "Supermercado",
+            "importe": 20000,
+            "saldo": 2438,
+            "signo": "+"
+        },
+        {
+            "id":"9",
+            "tipo": "tarjeta",
+            "cuenta": "1",
+            "fecha": "2024-08-13T19:00.896-3:00",
+            "descripcion": "Supermercado",
+            "importe": 20000,
+            "saldo": 2438,
+            "signo": "+"
+        },
+        {
+            "id":"9",
+            "tipo": "tarjeta",
+            "cuenta": "1",
+            "fecha": "2024-08-13T19:00.896-3:00",
+            "descripcion": "Supermercado",
+            "importe": 20000,
+            "saldo": 2438,
+            "signo": "+"
+        },
+        {
+            "id":"9",
+            "tipo": "tarjeta",
+            "cuenta": "1",
+            "fecha": "2024-08-13T19:00.896-3:00",
+            "descripcion": "Supermercado",
+            "importe": 20000,
+            "saldo": 2438,
+            "signo": "+"
+        },
+        {
+            "id":"9",
+            "tipo": "tarjeta",
+            "cuenta": "1",
+            "fecha": "2024-08-13T19:00.896-3:00",
+            "descripcion": "Supermercado",
+            "importe": 20000,
+            "saldo": 2438,
+            "signo": "+"
+        },
+        {
+            "id":"9",
+            "tipo": "tarjeta",
+            "cuenta": "1",
+            "fecha": "2024-08-13T19:00.896-3:00",
+            "descripcion": "Supermercado",
+            "importe": 20000,
+            "saldo": 2438,
+            "signo": "+"
+        },
+        {
+            "id":"9",
+            "tipo": "tarjeta",
+            "cuenta": "1",
+            "fecha": "2024-08-13T19:00.896-3:00",
+            "descripcion": "Supermercado",
+            "importe": 20000,
+            "saldo": 2438,
+            "signo": "+"
+        },
+        {
+            "id":"9",
+            "tipo": "tarjeta",
+            "cuenta": "1",
+            "fecha": "2024-08-13T19:00.896-3:00",
+            "descripcion": "Supermercado",
+            "importe": 20000,
+            "saldo": 2438,
+            "signo": "+"
+        },
+        {
+            "id":"9",
+            "tipo": "tarjeta",
+            "cuenta": "1",
+            "fecha": "2024-08-13T19:00.896-3:00",
+            "descripcion": "Supermercado",
+            "importe": 20000,
+            "saldo": 2438,
+            "signo": "+"
+        },
+        {
+            "id":"9",
+            "tipo": "tarjeta",
+            "cuenta": "1",
+            "fecha": "2024-08-13T19:00.896-3:00",
+            "descripcion": "Supermercado",
+            "importe": 20000,
+            "saldo": 2438,
+            "signo": "+"
+        },
+        {
+            "id":"9",
+            "tipo": "tarjeta",
+            "cuenta": "1",
+            "fecha": "2024-08-13T19:00.896-3:00",
+            "descripcion": "Supermercado",
+            "importe": 20000,
+            "saldo": 2438,
+            "signo": "+"
+        },
+        {
+            "id":"9",
+            "tipo": "tarjeta",
+            "cuenta": "1",
+            "fecha": "2024-08-13T19:00.896-3:00",
+            "descripcion": "Supermercado",
+            "importe": 20000,
+            "saldo": 2438,
+            "signo": "+"
+        },
+        {
+            "id":"9",
+            "tipo": "tarjeta",
+            "cuenta": "1",
+            "fecha": "2024-08-13T19:00.896-3:00",
+            "descripcion": "Supermercado",
+            "importe": 20000,
+            "saldo": 2438,
+            "signo": "+"
+        },
+        {
+            "id":"9",
+            "tipo": "tarjeta",
+            "cuenta": "1",
+            "fecha": "2024-08-13T19:00.896-3:00",
+            "descripcion": "Supermercado",
+            "importe": 20000,
+            "saldo": 2438,
+            "signo": "+"
+        },
+        {
+            "id":"9",
+            "tipo": "tarjeta",
+            "cuenta": "1",
+            "fecha": "2024-08-13T19:00.896-3:00",
+            "descripcion": "Supermercado",
+            "importe": 20000,
+            "saldo": 2438,
+            "signo": "+"
+        },
+        {
+            "id":"9",
+            "tipo": "tarjeta",
+            "cuenta": "1",
+            "fecha": "2024-08-13T19:00.896-3:00",
+            "descripcion": "Supermercado",
+            "importe": 20000,
+            "saldo": 2438,
+            "signo": "+"
+        },
+        {
+            "id":"9",
+            "tipo": "tarjeta",
+            "cuenta": "1",
+            "fecha": "2024-08-13T19:00.896-3:00",
+            "descripcion": "Supermercado",
+            "importe": 20000,
+            "saldo": 2438,
+            "signo": "+"
+        },
+        {
+            "id":"9",
+            "tipo": "tarjeta",
+            "cuenta": "1",
+            "fecha": "2024-08-13T19:00.896-3:00",
+            "descripcion": "Supermercado",
+            "importe": 20000,
+            "saldo": 2438,
+            "signo": "+"
+        },
+        {
+            "id":"9",
+            "tipo": "tarjeta",
+            "cuenta": "1",
+            "fecha": "2024-08-13T19:00.896-3:00",
+            "descripcion": "Supermercado",
+            "importe": 20000,
+            "saldo": 2438,
+            "signo": "+"
+        },
+        {
+            "id":"9",
+            "tipo": "tarjeta",
+            "cuenta": "1",
+            "fecha": "2024-08-13T19:00.896-3:00",
+            "descripcion": "Supermercado",
+            "importe": 20000,
+            "saldo": 2438,
+            "signo": "+"
+        },
+        {
+            "id":"9",
+            "tipo": "tarjeta",
+            "cuenta": "1",
+            "fecha": "2024-08-13T19:00.896-3:00",
+            "descripcion": "Supermercado",
+            "importe": 20000,
+            "saldo": 2438,
+            "signo": "+"
+        },
+        {
+            "id":"9",
+            "tipo": "tarjeta",
+            "cuenta": "1",
+            "fecha": "2024-08-13T19:00.896-3:00",
+            "descripcion": "Supermercado",
+            "importe": 20000,
+            "saldo": 2438,
+            "signo": "+"
+        },
+        {
+            "id":"9",
+            "tipo": "tarjeta",
+            "cuenta": "1",
+            "fecha": "2024-08-13T19:00.896-3:00",
+            "descripcion": "Supermercado",
+            "importe": 20000,
+            "saldo": 2438,
+            "signo": "+"
+        },
+        {
+            "id":"9",
+            "tipo": "tarjeta",
+            "cuenta": "1",
+            "fecha": "2024-08-13T19:00.896-3:00",
+            "descripcion": "Supermercado",
+            "importe": 20000,
+            "saldo": 2438,
+            "signo": "+"
+        },
+        {
+            "id":"9",
+            "tipo": "tarjeta",
+            "cuenta": "1",
+            "fecha": "2024-08-13T19:00.896-3:00",
+            "descripcion": "Supermercado",
+            "importe": 20000,
+            "saldo": 2438,
+            "signo": "+"
+        },
+        {
+            "id":"9",
+            "tipo": "tarjeta",
+            "cuenta": "1",
+            "fecha": "2024-08-13T19:00.896-3:00",
+            "descripcion": "Supermercado",
+            "importe": 20000,
+            "saldo": 2438,
+            "signo": "+"
+        },
+        {
+            "id":"9",
+            "tipo": "tarjeta",
+            "cuenta": "1",
+            "fecha": "2024-08-13T19:00.896-3:00",
+            "descripcion": "Supermercado",
+            "importe": 20000,
+            "saldo": 2438,
+            "signo": "+"
+        },
+        {
+            "id":"9",
+            "tipo": "tarjeta",
+            "cuenta": "1",
+            "fecha": "2024-08-13T19:00.896-3:00",
+            "descripcion": "Supermercado",
+            "importe": 20000,
+            "saldo": 2438,
+            "signo": "+"
+        }
+    ]
+}
