@@ -14,7 +14,7 @@ This project is a full-stack homebanking application developed as part of the Fu
 - **Logging & Monitoring**: Configured for auditing transactions and system events
 
 ### Frontend
-- **Language**: TypeScript
+- **Language**: Javascript
 - **Framework**: Next.js
 - **UI Library**: Material UI
 - **State Management**: React Hook Form (for handling forms)
