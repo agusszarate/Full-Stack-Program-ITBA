@@ -2,7 +2,7 @@
 
 # Homebanking Project
 
-This project is a full-stack homebanking application developed as part of the Full Stack Developer course organized by ITBA. It consists of a backend built with Python and Django REST Framework (DRF) and a frontend built with TypeScript and Next.js, all within the same repository.
+This project is a full-stack homebanking application developed as part of the Full Stack Developer course organized by ITBA. It consists of a backend built with Python and Django REST Framework (DRF) and a frontend built with Javascript and Next.js, all within the same repository.
 
 ## Technologies Used
 
